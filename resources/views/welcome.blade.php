@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Adil khan
+                    Abdul waheed
                 </div>
 
                 <div class="links">
