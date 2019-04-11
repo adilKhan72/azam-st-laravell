@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Abdul waheed changed from my personal laptop   
+                    Abdul waheed changed from my abdulwaheed laptop  
                 </div>
 
                 <div class="links">
