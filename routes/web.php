@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('about', function () {
     return view('about');
 });
+
+// calling the controller and showuser function in it
+Route::get('user/{user?}','MainPageController@showuser');
