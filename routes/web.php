@@ -19,7 +19,9 @@ Route::get('about', function () {
 });
 
 // calling the controller and showuser function in it
-Route::get('user/{user?}','MainPageController@showuser');
+//Route::get('user/{user?}','MainPageController@showuser');
 Route::get('contact','ContactController@showcontact');
 Route::get('blogs','BlogController@index');
 Route::get('blog/{id}','BlogController@singleblog');
+Route::resource('users','UserController');
+Route::resource('roles','RoleController');
