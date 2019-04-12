@@ -23,5 +23,5 @@ Route::get('about', function () {
 Route::get('contact','ContactController@showcontact');
 Route::get('blogs','BlogController@index');
 Route::get('blog/{id}','BlogController@singleblog');
-Route::resource('users','UserController');
+Route::resourcye('users','UserController');
 Route::resource('roles','RoleController');
