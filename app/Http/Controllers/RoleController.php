@@ -3,11 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
 
-=======
 use App\Role;
->>>>>>> a0b58d69ea6a576a39781c3e7ed18ac8a88a86ce
 class RoleController extends Controller
 {
     /**
@@ -18,11 +15,8 @@ class RoleController extends Controller
     public function index()
     {
         //
-<<<<<<< HEAD
-=======
         $roles = Role::all();
         return view('users.roles',compact('roles'));
->>>>>>> a0b58d69ea6a576a39781c3e7ed18ac8a88a86ce
     }
 
     /**
